@@ -35,13 +35,14 @@
             this.txtNumero = new System.Windows.Forms.TextBox();
             this.btnBuscar = new System.Windows.Forms.Button();
             this.btnInsertar = new System.Windows.Forms.Button();
+            this.label2 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label5
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(519, 89);
+            this.label5.Location = new System.Drawing.Point(559, 83);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(163, 20);
             this.label5.TabIndex = 23;
@@ -52,7 +53,7 @@
             this.lstResultado.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lstResultado.FormattingEnabled = true;
             this.lstResultado.ItemHeight = 18;
-            this.lstResultado.Location = new System.Drawing.Point(523, 112);
+            this.lstResultado.Location = new System.Drawing.Point(563, 106);
             this.lstResultado.Name = "lstResultado";
             this.lstResultado.Size = new System.Drawing.Size(194, 238);
             this.lstResultado.TabIndex = 22;
@@ -79,14 +80,14 @@
             // 
             // txtNumero
             // 
-            this.txtNumero.Location = new System.Drawing.Point(305, 180);
+            this.txtNumero.Location = new System.Drawing.Point(317, 178);
             this.txtNumero.Name = "txtNumero";
             this.txtNumero.Size = new System.Drawing.Size(100, 22);
             this.txtNumero.TabIndex = 15;
             // 
             // btnBuscar
             // 
-            this.btnBuscar.Location = new System.Drawing.Point(318, 255);
+            this.btnBuscar.Location = new System.Drawing.Point(468, 217);
             this.btnBuscar.Name = "btnBuscar";
             this.btnBuscar.Size = new System.Drawing.Size(75, 23);
             this.btnBuscar.TabIndex = 14;
@@ -96,7 +97,7 @@
             // 
             // btnInsertar
             // 
-            this.btnInsertar.Location = new System.Drawing.Point(318, 217);
+            this.btnInsertar.Location = new System.Drawing.Point(468, 174);
             this.btnInsertar.Name = "btnInsertar";
             this.btnInsertar.Size = new System.Drawing.Size(75, 23);
             this.btnInsertar.TabIndex = 13;
@@ -104,11 +105,22 @@
             this.btnInsertar.UseVisualStyleBackColor = true;
             this.btnInsertar.Click += new System.EventHandler(this.btnInsertar_Click);
             // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(70, 205);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(323, 20);
+            this.label2.TabIndex = 24;
+            this.label2.Text = "(Ingrese 10 valores obligatoriamente)";
+            // 
             // frmBusquedaBinaria
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.label2);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.lstResultado);
             this.Controls.Add(this.label4);
@@ -132,5 +144,6 @@
         private System.Windows.Forms.TextBox txtNumero;
         private System.Windows.Forms.Button btnBuscar;
         private System.Windows.Forms.Button btnInsertar;
+        private System.Windows.Forms.Label label2;
     }
 }

@@ -41,7 +41,7 @@ namespace EDDemo.Metodos_de_ordenamiento_y_busqueda
                         BusquedaHASH.Insertar(clave, valor);
                     }
                 }
-                MessageBox.Show("Datos cargados.", "Exito");
+                MessageBox.Show("Los datos han sido cargados", "Datos cargados", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
         }
 
@@ -57,7 +57,7 @@ namespace EDDemo.Metodos_de_ordenamiento_y_busqueda
             }
             else
             {
-                MessageBox.Show("Por favor ingresa datos validos.", "Datos invalidos", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Ingresa datos validos", "Datos invalidos", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
             txtClave.Focus();
             txtValor.Focus();
@@ -79,7 +79,7 @@ namespace EDDemo.Metodos_de_ordenamiento_y_busqueda
             }
             else
             {
-                MessageBox.Show("Por favor ingresa una clave valida.", "Clave invalida", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Ingresa una clave valida", "Clave invalida", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
             txtClaveBuscar.Focus();
         }
